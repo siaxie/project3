@@ -178,6 +178,10 @@ list-style-type:none;
       padding-left: 15px;
     }
 
+li:last-child {
+  border-bottom: 0;
+}
+
   .recipesimg {
     height: auto;
     margin: 0;
