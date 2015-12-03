@@ -162,7 +162,7 @@ list-style-type:none;
   }
   .logoimg{
   text-align:center;
-  padding-left: 20px;
+  
   margin-top:10px;
   }
 
@@ -175,7 +175,7 @@ list-style-type:none;
   .navigation li a {
       border-top: 1px solid #f0f0f0;
       line-height: 25px;
-      padding-left: 15px;
+      
     }
 
   .recipesimg {
