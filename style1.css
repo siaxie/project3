@@ -180,7 +180,7 @@ list-style-type:none;
       border-bottom: 1px solid #f0f0f0;
     }
 
-li:last-child {
+.navigation li a:last-child {
   border-bottom: 0;
 }
 
