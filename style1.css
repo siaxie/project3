@@ -185,6 +185,9 @@ list-style-type:none;
 .recipesimg ul li div a * {
   opacity: 1;
   margin: 0;
+}
+
+.recipesimg ul li div a  {
   color: lightgrey;
 }
   .recipesimg ul li, .recipesimg ul li:hover, .recipesimg ul:hover li, .recipesimg ul:hover li:hover {
