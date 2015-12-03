@@ -10,35 +10,38 @@
 /*header*/
 
 .logoimg{
-  text-align:left;
-  padding-left: 20px;
+  text-align:center;
 }
 
 /*nav*/
-
-   header nav ul {
+ 
+    
+.navigation li a {
+      display: block;
+      padding: 5px;
+    }
+    
+    @media all and (min-width: 600px) {
+      .navigation li {
+        display: inline-block;
+        margin: 0 5px;
+      }
+      .navigation li a {
+        padding: 10px 30px;
+        border: 0;
+      }
+    }
+    header nav ul {
              display: block;
-             text-align: left;
+             text-align: center;
              padding: 0px 5px;
         }
-    .navigation li a {
-      
-      line-height: 50px;
-      padding-left: 15px;
-    }
-
-
-    
-    @media all and (min-width: 30em) {
-      
-    }
-  
 
         a{
            color:#656a7e;
              text-decoration:none;
              font-family:Open Sans, sans-serif;
-             display: inline;
+             display: inline-block;
         }
         .navigation a:hover {
            color:#bebebd;
