@@ -1,16 +1,81 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
 /* global */
 
 *{ box-sizing:border-box; }
 .clearfix{ overflow:auto; }
 
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
-@import url(http://fonts.googleapis.com/css?family=Montserrat:700);
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
 
 /*header*/
 
 .logoimg{
   text-align:center;
+  margin-top: 10px;
 }
 
 /*nav*/
@@ -40,7 +105,7 @@
         a{
            color:#656a7e;
              text-decoration:none;
-             font-family:Open Sans, sans-serif;
+             
              display: inline-block;
         }
         .navigation a:hover {
@@ -124,19 +189,19 @@ list-style-type:none;
   font-size: 13.5px;
 }
 .recipesimg ul li:nth-child(1) {
-  background-image: url("https://cloud.githubusercontent.com/assets/15038501/11573191/ff7c6624-99d2-11e5-8da5-e5435f8105b1.jpg"); 
+  background-image: url("https://photos-5.dropbox.com/t/2/AADCprBMNpfNRUUIclYCupSn5paB6yEHwtp6Pr9RmaKHOw/12/344721733/jpeg/32x32/1/_/1/2/left1.jpg/ENO6kNkCGIGRASAHKAc/iv8QGJ7InhA3Q8szGwkwwGwSddTffoW0Vc6X-qWNSDs?size=1280x960&size_mode=3"); 
 }
 .recipesimg ul li:nth-child(2) {
-  background-image: url("https://cloud.githubusercontent.com/assets/15038501/11573320/ad599258-99d3-11e5-9e1e-9fc87ee1086d.jpg");
+  background-image: url("https://photos-6.dropbox.com/t/2/AADMefik1_r_K2EIcUQkfIPZwdJJpPpHlhzGui54dasCsg/12/344721733/jpeg/32x32/1/_/1/2/left2.jpg/ENO6kNkCGIGRASAHKAc/XzH2SyrUBRUDJvWMjLZCtX_9ztmi6DednyzBzcF_ops?size=1280x960&size_mode=3");
 }
 .recipesimg ul li:nth-child(3) {
-  background-image: url("https://cloud.githubusercontent.com/assets/15038501/11573325/b162b73a-99d3-11e5-95d7-78779a4ae9c4.jpg");
+  background-image: url("https://photos-5.dropbox.com/t/2/AAD-OQGt2K4wiKEkhk_EcFR7ockMiizvu1XAZ8RJD4v5_Q/12/344721733/jpeg/32x32/1/_/1/2/left3.jpg/ENO6kNkCGIGRASAHKAc/1gsVw_sBSs9_ITSLxSYLx3nuI38cRCDl3KjP6WgcEZo?size=1280x960&size_mode=3");
 }
 .recipesimg ul li:nth-child(4) {
-  background-image: url("https://cloud.githubusercontent.com/assets/15038501/11573515/c022eb90-99d4-11e5-9675-c31cada089a0.jpg");
+  background-image: url("https://photos-3.dropbox.com/t/2/AAB_IJWVft334saavGGPGHJWqsxuf_twA3r2Y5FDOtznsQ/12/344721733/jpeg/32x32/1/_/1/2/left4.jpg/ENO6kNkCGIGRASAHKAc/96O-Ga0mr9d9YyFPXTa098gokzYYJbRIGhQn3SdObQA?size=1280x960&size_mode=3");
 }
 .recipesimg ul li:nth-child(5) {
-  background-image: url("https://cloud.githubusercontent.com/assets/15038501/11573334/b8ab6276-99d3-11e5-9b96-7b208ec6f639.jpg");
+  background-image: url("https://photos-5.dropbox.com/t/2/AACpTsAMilOSi1L_g-CBwT-Z8EjGZVtl5LjGbywHE3Y28Q/12/344721733/jpeg/32x32/1/_/1/2/left5.jpg/ENO6kNkCGIGRASAHKAc/KHgVe6ddRuMv1X9_zpYctrq-Np1yEtuE4gyZxX2G7eY?size=1280x960&size_mode=3");
 }
 
 
@@ -162,7 +227,7 @@ list-style-type:none;
   }
   .logoimg{
   text-align:center;
-  
+  padding-left: 20px;
   margin-top:10px;
   }
 
@@ -173,23 +238,22 @@ list-style-type:none;
         }
 
   .navigation li a {
-      border-top: 1px solid #f0f0f0;
-      line-height: 25px;
       
+      
+      padding-left: 15px;
+      margin-bottom: 1.5rem;
+      border-bottom: 1px solid #f0f0f0;
     }
+
+.navigation li a:last-child {
+  border-bottom: 0;
+}
 
   .recipesimg {
     height: auto;
     margin: 0;
   }
-.recipesimg ul li div a * {
-  opacity: 1;
-  margin: 0;
-}
 
-.recipesimg ul li div a  {
-  color: lightgrey;
-}
   .recipesimg ul li, .recipesimg ul li:hover, .recipesimg ul:hover li, .recipesimg ul:hover li:hover {
     position: relative;
     display: table;
